@@ -1,0 +1,197 @@
+body{
+    margin: 0px;
+    text-align: center;
+}
+.top{
+    background-color: #910A67;
+}
+h1{
+    /* margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px; */
+    font-family: 'Alkatra', system-ui;
+    font-size: 5.625rem; /*here 100% =16px 
+                                            em/M  1em=16px
+                                            em =parent em+ childe em
+                                            same goes for %
+                                    That is why we use rem (root em)-ignore all the setting of parent cell and only applay child cell settin*/
+
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+
+
+    /* display: inline; */
+
+   /* width: 10%; /* in this case h1 will not follow the (body)-text align center */
+   /* margin: 0 auto 0 auto;  */
+}
+h2{
+    font-weight: normal;
+    color: #66BFBF;
+}
+.des{
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+h3{
+    color: #11999E;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: #11999E;
+}
+a:visited{
+    color: #63119e;
+}
+a:hover{
+    color: #b7c42b;
+}
+/* p{
+    margin-left: 140px;
+} */
+
+p{
+    /* font-family: 'Patrick Hand', cursive; */
+    font-family: 'Roboto Mono', monospace;
+}
+.sp{
+    text-decoration: underline;
+}
+.sp2{
+    text-decoration: underline;
+    color: #30e3cb;
+}
+.top{
+    position: relative; /*here the relative position mean 100px from the right side of the element*/
+    /*we set its position relative because we want image 1 and 2 to set its position relative to (div) not with (body)*/
+    padding-top: 100px;
+}
+.image1{
+    height: 100px;
+    width: 140px;
+    position: absolute; /*here absolute is mean 300px from the right of the container(div)*/
+
+    right:250px;
+    top: 50px;
+}
+.image2{
+        height: 100px;
+        width: 140px;
+        position: absolute;
+        left:300px;
+        bottom: 500px;
+
+        /* position: relative;
+        left: 300px;
+        bottom: 130px; */
+}
+.mo
+{
+    display: inline-block;
+}
+image{
+    width: 1000px;
+}
+
+/* .middle-container{
+    /* background-color: #3C0753; */
+    /* height: 200px;
+    width: 200px; 
+} */
+.profile{
+    height: 300px;
+    
+    border-radius: 50rem;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+    line-height: 2;
+    /* width: 50%; */
+}
+.imgs1{
+    /* height: 300px; */
+    width: 25%;
+    border-radius: 50rem;
+    float: left;/*is used make the image come to the left of the text and make text able to come or wrap on itself*/
+    margin-right: 30px;
+}
+.imgs2{
+    width: 25%;
+    border-radius: 50rem;
+    float: right;/*is used make the image come to the left of the text and make text able to come or wrap on itself*/
+    margin-left: 30px;
+}
+/* .skill-par1{
+    clear: left;/*if we want this para not to warp any thing on its left
+    /*if I want to clear its left side 
+    /*it prevent para to wrap any thing on its left
+}
+.skill-par2{
+    clear: right;
+} */
+
+
+/* .bottom-container{
+    /* background-color: #720455; 
+} */
+
+.middle-container{
+    background-color: #3C0753;
+    padding:100px 0 0 0;
+}
+
+.formhr{
+    border-style: dotted none none;
+    width: 5%;/*width of the line----- line kitini lambi h*/
+    border-width: 5px;/*width of the border----- dot  kitini bada h*/
+}
+.contact-me{
+    background-color: #720455;
+}
+.Texa{
+    resize: none;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+lable{
+    color: aqua;
+}
+.bottom-container{
+    background-color: #720455;
+    padding-top: 50px;
+}
+.footer-link{
+    margin: 10px 20px 0px 20px;
+}
+.fotter-par{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
